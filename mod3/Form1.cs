@@ -16,5 +16,10 @@ namespace mod3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "Halo " + textBox1.Text;
+        }
     }
 }
